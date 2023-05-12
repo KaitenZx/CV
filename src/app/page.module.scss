@@ -1,0 +1,174 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+  background-color: white;
+
+}
+
+.stack {
+  display: flex;
+  margin-bottom: 0.8rem;
+}
+.cv {
+  position: relative;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1.7rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(66, 135, 245);
+  width: 800px;
+  height: 6rem;
+
+  color: white;
+  gap: 0.4rem;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  line-height: 150%;
+}
+
+.name {
+  letter-spacing: 0.3rem;
+  font-size: 2.2rem;
+}
+
+.position {
+  font-size: 1.2rem;
+}
+
+.eduContact {
+  margin-top: 0.3rem;
+  display: flex;
+  width: 100%;
+  height: 9rem;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.block {
+  height: 95%;
+  width: 22rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  font-size: 90%;
+
+}
+
+.title {
+  margin-bottom: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  font-size: 0.9rem;
+  border-bottom: solid 1px black;
+  padding-bottom: 0.2rem;
+}
+
+.bigTitle {
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  font-size: 1.15rem;
+  border-bottom: solid 1px black;
+  padding-bottom: 0.2rem;
+  width: 13rem;
+  margin-left: 1rem;
+  text-align: center;
+}
+
+.fatWords {
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+  // font-size: 1rem;
+  color: black;
+  margin-right: 0.3rem;
+}
+
+.thinSpan {
+  font-weight: 500;
+  color: rgb(69, 69, 69);
+  margin-bottom: 0.3rem;
+}
+
+.textSpan {
+  color: rgb(69, 69, 69);
+  margin-bottom: 0.5rem;
+}
+
+
+
+
+.text {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 0.4rem;
+}
+
+.workExp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // background-color: rgba($color: rgb(144, 177, 229), $alpha: 0.2);
+  width: 100%;
+  min-height: 25rem;
+  padding-bottom: 1rem;
+}
+
+.job {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.jobTitle {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+
+.bullets {
+  list-style-type: disc;
+  padding-left: 2rem;
+
+  li {
+    margin-bottom: 0.3rem;
+  }
+}
+
+.duration {
+  padding-bottom: 0.4rem;
+  font-size: 87%;
+  color: rgb(44, 44, 44);
+}
+
+.company {
+  padding-bottom: 0.3rem;
+}
+
+.location {
+  color: rgb(44, 44, 44);
+  font-size: 87%;
+}
+
+.space {
+  height: 3rem;
+}
