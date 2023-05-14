@@ -172,3 +172,51 @@
 .space {
   height: 3rem;
 }
+
+@media screen and (max-width: 767px) {
+  .eduContact {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .block {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .bigTitle {
+    margin-left: 0;
+  }
+
+  .job {
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .cv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .cv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+  }
+  
+  .name {
+    font-size: 1.8rem;
+  }
+
+  .position {
+    font-size: 1rem;
+  }
+}
