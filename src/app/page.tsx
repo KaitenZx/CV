@@ -15,7 +15,8 @@ export default function Home() {
             <span className={style.thinSpan}><span className={style.fatWords}>email:</span> darkkosoy@gmail.com</span>
             <span className={style.thinSpan}><span className={style.fatWords}>phone:</span> +995595152398</span>
             <span className={style.thinSpan}><span className={style.fatWords}>location:</span> Tbilisi, Georgia</span>
-            <span className={style.thinSpan}><span className={style.fatWords}>LinkedIn:</span> www.linkedin.com/in/yura-glonti-20461b232</span>
+            <span className={style.thinSpan}><span className={style.fatWords}>LinkedIn:</span> <a href="https://www.linkedin.com/in/yura-glonti-20461b232">LinkedIn Profile</a>
+</span>
           </div>
           <div className={style.block}>
             <div className={style.title}>EDUCATION</div>
