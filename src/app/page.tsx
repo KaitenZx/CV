@@ -26,11 +26,12 @@ export default function Home() {
         </div>
         <div className={style.about}>
           <div className={style.bigTitle}>ABOUT ME</div>
-          <div className={style.text}>Hello there! I&apos;m a seasoned front-end engineer and a born problem solver, living and breathing tech ever since I can remember. Having spent 3 delightful years getting my hands dirty with React, TypeScript, and SCSS, I&apos;ve fine-tuned my craft, but that&apos;s just one side of the coin.</div>
+          <div className={style.text}>Hello there! I&apos;m a front-end engineer and a born problem solver, living and breathing tech ever since I can remember. Having spent 3 delightful years getting my hands dirty with React, TypeScript, and SCSS, I&apos;ve fine-tuned my craft, but that&apos;s just one side of the coin.</div>
           <div className={style.text}>Before diving headfirst into the fascinating world of frontend development, I sharpened my IT skills by working as a support engineer and a system administrator. This has not only given me an all-rounded understanding of technology but also honed my ability to troubleshoot, communicate, and collaborate effectively.</div>
           <div className={style.text}> I&apos;m big on logical and rational thinking, always exploring the how&apos;s and why&apos;s of everything that comes my way. This curious, analytical approach extends beyond the codes I write, feeding my hobby - photography, and my interest in human psychology. I find the parallels between code and life intriguing, spotting patterns, debugging issues, and striving for that perfect balance.</div>
           <div className={style.text}>So, that&apos;s me, an engineer by day, a photographer-psychology-enthusiast by night, and a lifetime learner by choice. Looking forward to our journey together!</div>
         </div>
+
         <div className={style.workExp}>
           <div className={style.bigTitle}>WORK EXPERIENCE</div>
           <div className={style.job}>
@@ -46,6 +47,7 @@ export default function Home() {
               <li>Improved the language learning experience for users by enhancing the site&apos;s functionality and design.</li>
             </ul>
           </div>
+
           <div className={style.job}>
             <div className={style.jobTitle}>Frontend Developer</div>
             <div className={style.company}>Armed</div>
