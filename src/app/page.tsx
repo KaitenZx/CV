@@ -26,9 +26,10 @@ export default function Home() {
         </div>
         <div className={style.about}>
           <div className={style.bigTitle}>ABOUT ME</div>
-          <div className={style.text}>From a young age, I&apos;ve been hooked by science and technology, intrigued by the way modern innovations transform everyday life. My other passion, photography, has taught me to appreciate not only logical but also visual patterns. These combined interests have steered me toward the world of IT, ultimately inspiring me to pursue a career as a frontend developer. </div>
-          <div className={style.text}>I&apos;ve always been the kind of person who stays calm and collected, even in tough situations. I think my emotional intelligence and ability to communicate well with others really help me out in those moments. That&apos;s why I believe I make a great team player - I can work through misunderstandings and sort out conflicts with a cool head and a friendly approach.</div>
-          <div className={style.text}> I&apos;m all about growing my skills and knowledge in software development, and I&apos;m excited to see where this journey takes me!</div>
+          <div className={style.text}>Hello there! I&apos;m a seasoned front-end engineer and a born problem solver, living and breathing tech ever since I can remember. Having spent 3 delightful years getting my hands dirty with React, TypeScript, and SCSS, I&apos;ve fine-tuned my craft, but that&apos;s just one side of the coin.</div>
+          <div className={style.text}>Before diving headfirst into the fascinating world of frontend development, I sharpened my IT skills by working as a support engineer and a system administrator. This has not only given me an all-rounded understanding of technology but also honed my ability to troubleshoot, communicate, and collaborate effectively.</div>
+          <div className={style.text}> I&apos;m big on logical and rational thinking, always exploring the how&apos;s and why&apos;s of everything that comes my way. This curious, analytical approach extends beyond the codes I write, feeding my hobby - photography, and my interest in human psychology. I find the parallels between code and life intriguing, spotting patterns, debugging issues, and striving for that perfect balance.</div>
+          <div className={style.text}>So, that&apos;s me, an engineer by day, a photographer-psychology-enthusiast by night, and a lifetime learner by choice. Looking forward to our journey together!</div>
         </div>
         <div className={style.workExp}>
           <div className={style.bigTitle}>WORK EXPERIENCE</div>
@@ -37,7 +38,7 @@ export default function Home() {
             <div className={style.company}>Lingwing</div>
             <div className={style.location}>Georgia, Tbilisi</div>
             <div className={style.duration}>May 2021 - April 2023</div>
-            <div className={style.stack}>Technologies:  Next.js, Redux, Jest, TypeScript </div>
+            <div className={style.stack}>Skills:  Next.js, Redux, Jest, TypeScript </div>
             <ul className={style.bullets}>
               <li>Led the overhaul of a legacy website&apos;s frontend, utilizing cutting-edge technologies such as Next.js and TypeScript.</li>
               <li>Responsible for selecting libraries, solutions, and approaches, ensuring the platform remains up-to-date and user-friendly</li>
@@ -50,7 +51,7 @@ export default function Home() {
             <div className={style.company}>Armed</div>
             <div className={style.location}>Russia, Moscow</div>
             <div className={style.duration}>Mar 2020 - Apr 2021</div>
-            <div className={style.stack}>Technologies:  React.js, react-query, MobX </div>
+            <div className={style.stack}>Skills:  React.js, react-query, MobX </div>
 
             <ul className={style.bullets}>
               <li>Optimized and improved existing code to enhance website functionality.</li>
@@ -64,7 +65,7 @@ export default function Home() {
             <div className={style.company}>Topol house management company</div>
             <div className={style.location}>Russia, Stariy Oskol</div>
             <div className={style.duration}>2018 - February 2020</div>
-            <div className={style.stack}>Technologies:  CMDB, Active Directory, Python </div>
+            <div className={style.stack}>Skills:  CMDB, Active Directory, Python </div>
             <ul className={style.bullets}>
               <li>Maintained and expanded the company&apos;s computer network, including hardware and software installations, upgrades, and troubleshooting.</li>
               <li>Managed electronic document management with state accounting systems, ensuring accurate and timely processing of financial transactions.</li>
